@@ -7,7 +7,7 @@
 | What are nf-core modules? | Explain the purpose and contents of nf-core modules. |
 | How do I add a module to an nf-core pipeline? | Add multiple modules to a custom nf-core pipeline. |
 
-To lower the difficulty barrier for nf-core pipeline development, nf-core provides a pipeline template that adheres to all nf-core guidelines, as well as a  command line tool (within nf-core tools) that allows users to create a custom pipeline using this nf-core base template.
+To lower the difficulty barrier for nf-core pipeline development, nf-core provides a pipeline template that adheres to all nf-core guidelines, as well as a  command line tool (within nf-core tools) that allows users to create a custom pipeline using this nf-core base template. In this episode, we're going to create your own custom nf-core pipeline using this command line tool.
 
 ## Creating your custom pipeline
 
