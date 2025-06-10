@@ -105,6 +105,9 @@ The figure below visually represents how channels pass data to processes:
 
 <img src ='/nf-core/assets/nextflow-review/workflow-example.drawio.png'>  
 
+This workflow takes `File 1` as input. That input is passed to `Process X` via `Channel A`. `Process X` performs a task, and the output of that task is passed to `Process Y` by `Channel B`. `Process Y` performs a task, and the output of that task is passed to `Channel C`.
+
+
 ### Anatomy of a process
 
 In this section, we're going to discuss three key components of a process: The script, input, and output blocks.
