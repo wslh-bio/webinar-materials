@@ -17,3 +17,8 @@ There are six core features of nf-core that are beneficial to bioinformaticians 
 4. **Reproducibility**: Once stable, ​nf-core​ pipelines are given tagged releases on GitHub. Each version is given a number using semantic versioning, and nf-core​ pipelines support the collection of analysis metadata such as pipeline version, software versions, and command and parameter configuration.
 5. **Standardization**: To help developers get started with new pipelines, nf-core provides a standardized pipeline template that adheres to all nf-core guidelines, as well as command line tools for pipeline creation. This lowers barriers to development and provides consistent structure across all pipelines, making them easier to learn, use, and develop.
 7. **Research Impact**: The nf-core framework increases reliability and reproducibility of scientific analyses, and it accelerates scientific discoveries through ready-to-use, validated workflows.
+
+## Keypoints
+
+1. nf-core is a framework for creating Nextflow workflows
+2. nf-core is portable, reproducible, and standardized, making it an ideal framework for design
