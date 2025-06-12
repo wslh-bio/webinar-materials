@@ -21,4 +21,4 @@ There are six core features of nf-core that are beneficial to bioinformaticians 
 ## Keypoints
 
 1. nf-core is a framework for creating Nextflow workflows
-2. nf-core is portable, reproducible, and standardized, making it an ideal framework for design
+2. nf-core is portable, reproducible, and standardized, making it an ideal framework for workflow design
