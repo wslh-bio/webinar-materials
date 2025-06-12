@@ -168,6 +168,8 @@ The list of input qualifiers includes:
 -   `tuple`: Handle a group of input values having any of the above qualifiers. 
 -   `each`: Execute the process for each element in the input collection.
 
+`val`, `path`, and `tuple` are the most common qualifiers you are likely to use.
+
 The input block is contained within the process body, **before** the script block, like so:
 
 ```
@@ -205,6 +207,8 @@ The list of output qualifiers includes:
 -   `stdout`: Emit the `stdout` of the executed process.  
 -   `tuple`: Emit multiple values. 
 -   `eval`: Emit the result of a script or command evaluated in the task execution context.
+
+Again, `val`, `path`, and `tuple` are the most common qualifiers you are likely to use.
 
 The output block is contained within the process body, **after** the input block and **before** the script block, like so:
 
