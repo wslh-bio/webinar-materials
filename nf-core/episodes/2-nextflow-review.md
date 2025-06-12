@@ -112,7 +112,7 @@ This workflow takes `File 1` as input. That input is passed to `Process X` via `
 
 In this section, we're going to discuss three key components of a process: The script, input, and output blocks.
 
-A process is made up of the process function, a name, and a body. The name of the process describes what that process is doing while the body, which is contained in curly brackets`{}`, consists of the command or script that process executes.
+A process is made up of the process function, a name, and a body. The name of the process describes what that process is doing while the body (which is contained in curly brackets`{}`) consists of the command or script that process executes.
 
 ```
 process HELLO {
