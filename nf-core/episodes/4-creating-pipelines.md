@@ -102,7 +102,7 @@ Follow the steps below to start setting up your pipeline:
 
 ## Testing your first pipeline
 
-Once your pipeline has been set up, you can chnage to its directory and test it using the `nextflow run` command and the `test` profile:
+Once your pipeline has been set up, you can change to its directory and test it using the `nextflow run` command and the `test` profile:
 
 ```
 cd myorganization-mypipeline
