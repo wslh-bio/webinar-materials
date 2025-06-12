@@ -394,7 +394,8 @@ Which produces the following output:
 
  Use the following statement to include this module:
 
- include { SEQTK_TRIM } from '../modules/nf-core/seqtk/trim/main'
+```
+include { SEQTK_TRIM } from '../modules/nf-core/seqtk/trim/main'
 ```
 
 You could also look in a module's `main.nf` script or its `meta.yml` file for its input(s) (and output(s)). This is seqtk trim's `main.nf` script:
