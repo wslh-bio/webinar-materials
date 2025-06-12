@@ -390,6 +390,7 @@ Which produces the following output:
 ╶─────────────────────┼────────────────────────────────────────────────────────────────┼────────────╴
   versions.yml  (file)│File containing software versions                               │versions.yml
                       ╵                                                                ╵
+```
 
  Use the following statement to include this module:
 
