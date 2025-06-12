@@ -340,7 +340,11 @@ With that brief review of Nextflow complete, we can move on to downloading and r
 
 #### Challenge 3
 
-Create a workflow block with the following input and processes: The input is a path to paired end FASTQ files `data/fastqs/*_{R1,R2}.fastq.gz`. Process one is `TRIM_READS()`, which takes the FASTQ files as input. It emits an output with the name `trimmed_reads`. Process two is `READ_QC()`, which takes the output of `TRIM_READS()` as input. It emits an output with the name `qc_files`. Process three is `QC_REPORT()`, which takes the output of `READ_QC()` as input. It emits an output called `qc_report`.
+Create a workflow block with the following input and processes: 
+- The input is a path to paired end FASTQ files `data/fastqs/*_{R1,R2}.fastq.gz`.
+- Process one is `TRIM_READS()`, which takes the FASTQ files as input. It emits an output with the name `trimmed_reads`.
+- Process two is `READ_QC()`, which takes the output of `TRIM_READS()` as input. It emits an output with the name `qc_files`.
+- Process three is `QC_REPORT()`, which takes the output of `READ_QC()` as input. It emits an output called `qc_report`.
 
 The solution to this challenge can be found [here](/nf-core/challenge-solutions/nextflow-review/challenge-3.md).
 
